@@ -6,13 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		952FF1272D47971400B5FD4C /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 952FF1262D47971400B5FD4C /* iPhoneNumberField */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		952FF0952D47671600B5FD4C /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		952FF1192D4792A100B5FD4C /* Exceptions for "FoodDelivery" folder in "FoodDelivery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 952FF0942D47671600B5FD4C /* FoodDelivery */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		952FF0972D47671600B5FD4C /* FoodDelivery */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				952FF1192D4792A100B5FD4C /* Exceptions for "FoodDelivery" folder in "FoodDelivery" target */,
+			);
 			path = FoodDelivery;
 			sourceTree = "<group>";
 		};
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952FF1272D47971400B5FD4C /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			);
 			name = FoodDelivery;
 			packageProductDependencies = (
+				952FF1262D47971400B5FD4C /* iPhoneNumberField */,
 			);
 			productName = FoodDelivery;
 			productReference = 952FF0952D47671600B5FD4C /* FoodDelivery.app */;
@@ -94,6 +113,9 @@
 			);
 			mainGroup = 952FF08C2D47671600B5FD4C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				952FF1252D47971400B5FD4C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 952FF0962D47671600B5FD4C /* Products */;
 			projectDirPath = "";
@@ -254,6 +276,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDelivery/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodDelivery/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -284,6 +307,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDelivery/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodDelivery/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		952FF1252D47971400B5FD4C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		952FF1262D47971400B5FD4C /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 952FF1252D47971400B5FD4C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 952FF08D2D47671600B5FD4C /* Project object */;
 }
