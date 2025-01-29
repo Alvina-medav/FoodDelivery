@@ -10,7 +10,33 @@ struct HomeView: View {
                         Image("color_logo")
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 25)
+                            .frame(width: 40)
+                            .padding(.top, 70)
+                        
+                        HStack{
+                            Image("location")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 17, height: 17)
+                            Text("Vadodara, India")
+                        }
+                        SearchTextField(searchText: .constant(""))
+                            .padding()
+                        
+                        Image("banner_top")
+                            .resizable()
+                            .scaledToFit()
+                            .padding(.horizontal, 15)
+                            .padding(.top, -3)
+                            .padding(.bottom, 15)
+                        
+                        SectionTitleAll(title: "Best Selling") {
+                            //
+                        }
+                        Spacer()
+                        SectionTitleAll(title: "Groceries") {
+                            //
+                        }
                     }
                 }
                 
