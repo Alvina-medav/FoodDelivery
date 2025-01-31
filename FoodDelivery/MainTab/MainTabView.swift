@@ -48,6 +48,24 @@ struct MainTabView: View {
             .background(Color.white)
             .cornerRadius(15)
             .shadow(color: Color.black.opacity(0.15), radius: 3, x: 0, y: -2)
+            
+            
+            VStack{
+                HStack{
+                    NavigationLink {
+                        SignInView()
+                    } label: {
+                        Image("back")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                    }
+                    Spacer()
+                }
+                Spacer()
+            }
+            .padding(.top, 60)
+            .padding(.horizontal, 10)
         }
         .navigationTitle("")
         .navigationBarHidden(true)
