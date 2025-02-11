@@ -33,10 +33,31 @@ struct HomeView: View {
                         SectionTitleAll(title: "Best Selling") {
                             //
                         }
-                        Spacer()
-                        SectionTitleAll(title: "Groceries") {
-                            //
+                        ScrollView(.horizontal, showsIndicators: false){
+                            HStack{
+                                ProductitemView(
+                                    imageName: "banana",
+                                    productName: "Organic Bananas",
+                                    description: "7pcs, Priceg",
+                                    price: "$4.99"
+                                )
+                                ProductitemView(
+                                    imageName: "apple_red",
+                                    productName: "Red Apple",
+                                    description: "1kg, Priceg",
+                                    price: "$4.99"
+                                )
+                                ProductitemView(
+                                    imageName: "banana",
+                                    productName: "Organic Bananas",
+                                    description: "7pcs, Priceg",
+                                    price: "$4.99"
+                                )
+                              
+                            }
+                            
                         }
+                        
                     }
                 }
                 

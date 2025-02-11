@@ -41,6 +41,7 @@ struct ProductDetailView: View {
                             Button{
                                 //
                             } label: {
+
                                 Image("fav")
                                     .resizable()
                                     .scaledToFit()
@@ -207,3 +208,4 @@ struct ProductDetailView: View {
 #Preview {
     ProductDetailView()
 }
+

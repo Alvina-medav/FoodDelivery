@@ -23,7 +23,7 @@ struct MainTabView: View {
            //  Custom Tab Bar
             HStack {
                 TabButton(title: "Shop", icon: "storefront", isSelect: homeVM.selectTab == 0) {
-                    homeVM.selectTab = 0
+                   homeVM.selectTab = 0
                 }
                 
                 TabButton(title: "Explore", icon: "magnifyingglass", isSelect: homeVM.selectTab == 1) {
