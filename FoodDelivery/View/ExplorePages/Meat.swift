@@ -11,11 +11,16 @@ struct Meat: View {
                         .multilineTextAlignment(.center)
                         .padding(.leading, 180)
                     Spacer()
-                    Image("filter_ic")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 20, height: 20)
-                        .padding(.trailing,20)
+                    NavigationLink{
+                        FilterView()
+                    } label: {
+                        
+                        Image("filter_ic")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                            .padding(.trailing,20)
+                    }
                 }
                 .padding(.bottom, 750)
                 VStack{

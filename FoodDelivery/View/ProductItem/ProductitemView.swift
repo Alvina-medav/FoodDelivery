@@ -12,6 +12,7 @@ struct ProductitemView: View {
             RoundedRectangle(cornerRadius: 10)
                 .stroke(Color.black.opacity(0.2), lineWidth: 0.8)
                 .frame(width: 165,height: 220)
+                .padding(.leading)
                 .overlay(
                     VStack{
                         Image(imageName)
