@@ -5,7 +5,7 @@ struct CookingOil: View {
         NavigationStack{
             ZStack{
                 HStack{
-                    Text("Beverages")
+                    Text("Cooking Oil")
                         .font(.customfont(.semibold, fontSize: 20))
                         .foregroundColor(.black)
                         .multilineTextAlignment(.center)

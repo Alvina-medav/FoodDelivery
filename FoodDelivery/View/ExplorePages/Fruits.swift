@@ -5,11 +5,11 @@ struct Fruits: View {
         NavigationStack{
             ZStack{
                 HStack{
-                    Text("Beverages")
+                    Text("Fruits")
                         .font(.customfont(.semibold, fontSize: 20))
                         .foregroundColor(.black)
                         .multilineTextAlignment(.center)
-                        .padding(.leading, 150)
+                        .padding(.leading, 180)
                     Spacer()
                     Image("filter_ic")
                         .resizable()
@@ -28,9 +28,9 @@ struct Fruits: View {
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
+                            imageName: "banana",
+                            productName: "Organic Bananas",
+                            description: "7pcs, Priceg",
                             price: "$4.99"
                         )
                         .padding(.leading, 5)
@@ -40,16 +40,16 @@ struct Fruits: View {
                 VStack{
                     HStack{
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
+                            imageName: "bell_pepper_red",
+                            productName: "Bell Pepper Red",
                             description: "1kg, Priceg",
                             price: "$4.99"
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
+                            imageName: "ginger",
+                            productName: "Ginger",
+                            description: "250gm, Priceg",
                             price: "$4.99"
                         )
                         .padding(.leading, 5)
@@ -59,9 +59,9 @@ struct Fruits: View {
                 VStack{
                     HStack{
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
+                            imageName: "banana",
+                            productName: "Organic Bananas",
+                            description: "7pcs, Priceg",
                             price: "$4.99"
                         )
                         .padding(.trailing, 10)

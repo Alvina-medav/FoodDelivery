@@ -5,11 +5,11 @@ struct Meat: View {
         NavigationStack{
             ZStack{
                 HStack{
-                    Text("Beverages")
+                    Text("Meat")
                         .font(.customfont(.semibold, fontSize: 20))
                         .foregroundColor(.black)
                         .multilineTextAlignment(.center)
-                        .padding(.leading, 150)
+                        .padding(.leading, 180)
                     Spacer()
                     Image("filter_ic")
                         .resizable()
@@ -21,15 +21,15 @@ struct Meat: View {
                 VStack{
                     HStack{
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
+                            imageName: "beef_bone",
+                            productName: "Beef Bone",
                             description: "1kg, Priceg",
                             price: "$4.99"
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
+                            imageName: "broiler_chicken",
+                            productName: "Broiler Chicken",
                             description: "1kg, Priceg",
                             price: "$4.99"
                         )
@@ -40,15 +40,15 @@ struct Meat: View {
                 VStack{
                     HStack{
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
+                            imageName: "broiler_chicken",
+                            productName: "Broiler Chicken",
                             description: "1kg, Priceg",
                             price: "$4.99"
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
+                            imageName: "beef_bone",
+                            productName: "Beef Bone",
                             description: "1kg, Priceg",
                             price: "$4.99"
                         )
@@ -59,15 +59,15 @@ struct Meat: View {
                 VStack{
                     HStack{
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
+                            imageName: "beef_bone",
+                            productName: "Beef Bone",
                             description: "1kg, Priceg",
                             price: "$4.99"
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
-                            imageName: "apple_red",
-                            productName: "Red Apple",
+                            imageName: "broiler_chicken",
+                            productName: "Broiler Chicken",
                             description: "1kg, Priceg",
                             price: "$4.99"
                         )

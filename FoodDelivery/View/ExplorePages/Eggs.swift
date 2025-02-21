@@ -5,11 +5,11 @@ struct Eggs: View {
         NavigationStack{
             ZStack{
                 HStack{
-                    Text("Beverages")
+                    Text("eggs")
                         .font(.customfont(.semibold, fontSize: 20))
                         .foregroundColor(.black)
                         .multilineTextAlignment(.center)
-                        .padding(.leading, 150)
+                        .padding(.leading, 180)
                     Spacer()
                     Image("filter_ic")
                         .resizable()
@@ -22,16 +22,16 @@ struct Eggs: View {
                     HStack{
                         ProductitemView(
                             imageName: "egg_chicken_red",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
-                            price: "$4.99"
+                            productName: "Egg Chicken Red",
+                            description: "4pcs, Price",
+                            price: "$1.99"
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
                             imageName: "egg_chicken_white",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
-                            price: "$4.99"
+                            productName: "Egg Chicken white ",
+                            description: "180g, Price",
+                            price: "$1.50"
                         )
                         .padding(.leading, 5)
                     }
@@ -41,16 +41,16 @@ struct Eggs: View {
                     HStack{
                         ProductitemView(
                             imageName: "egg_pasta",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
-                            price: "$4.99"
+                            productName: "Egg Pasta",
+                            description: "30gm, Price",
+                            price: "$15.99"
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
                             imageName: "egg_noodles",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
-                            price: "$4.99"
+                            productName: "Egg Noodles",
+                            description: "2l, Price",
+                            price: "$15.99"
                         )
                         .padding(.leading, 5)
                     }
@@ -61,15 +61,15 @@ struct Eggs: View {
                         ProductitemView(
                             imageName: "mayinnars_eggless",
                             productName: "Red Apple",
-                            description: "1kg, Priceg",
-                            price: "$4.99"
+                            description: "1box, Price",
+                            price: "$19.99"
                         )
                         .padding(.trailing, 10)
                         ProductitemView(
                             imageName: "egg_noodies_new",
-                            productName: "Red Apple",
-                            description: "1kg, Priceg",
-                            price: "$4.99"
+                            productName: "Egg Noodles",
+                            description: "2l, Price",
+                            price: "$15.99"
                         )
                         .padding(.leading, 5)
                     }
